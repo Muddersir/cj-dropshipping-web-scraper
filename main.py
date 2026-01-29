@@ -63,8 +63,8 @@ for i in range(len(names)):
 
 # Save CSV
 df = pd.DataFrame(data)
-df.to_csv("cj_products2.csv", index=False, encoding="utf-8")
-print("Saved", len(data), "products to cj_products2.csv")
+df.to_csv("products.csv", index=False, encoding="utf-8")
+print("Saved", len(data), "products.csv")
 
 driver.quit()
 
